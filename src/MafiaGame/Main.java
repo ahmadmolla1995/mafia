@@ -5,6 +5,7 @@ public class Main {
         Game game = new Game();
 
         System.out.println("salaam");
+        System.out.println("ahmad molla hello");
         game.addCitizen(new Citizen(1, Role.Citizen));
         game.addCitizen(new Detective(2, Role.Detective));
         game.addMafia(new Mafia(3, Role.Mafia));
