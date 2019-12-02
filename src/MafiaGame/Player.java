@@ -1,8 +1,8 @@
 package MafiaGame;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public abstract class Player {
     protected int personID;
@@ -39,10 +39,6 @@ public abstract class Player {
         this.canTalk = status;
     }
 
-    public void talk(String message) {
-        System.out.println(message);
-    }
-
     public void printInfo() {
         System.out.print("id: " + personID + '\t');
         System.out.print("role: " + roll + '\t');
@@ -53,8 +49,38 @@ public abstract class Player {
 }
 
 class Mafia extends Player {
+    private static int numOfPlayers = 0;
+    protected static ArrayList<Integer> mafiaPersonIDs = new ArrayList<>();
+
     public Mafia(int personID, Role role) {
         super(personID, role);
+        mafiaPersonIDs.add(personID);
+        numOfPlayers++;
+    }
+
+    public static int getNumOfPlayers() {
+        return numOfPlayers;
+    }
+
+    public static void decreaseNumberOfPlayers() {
+        numOfPlayers --;
+    }
+}
+
+class Citizen extends Player {
+    private static int numOfPlayers = 0;
+
+    public Citizen(int personID, Role role) {
+        super(personID, role);
+        numOfPlayers ++;
+    }
+
+    public static int getNumOfPlayers() {
+        return numOfPlayers;
+    }
+
+    public static void decreaseNumberOfPlayers() {
+        numOfPlayers --;
     }
 }
 
@@ -74,28 +100,26 @@ class Natasha extends Mafia {
     }
 }
 
-class Citizen extends Player {
-    public Citizen(int personID, Role role) {
-        super(personID, role);
-    }
-}
-
 class Doctor extends Citizen {
-    public Doctor(int personID, Role role){
+    public Doctor(int personID, Role role) {
         super(personID, role);
     }
 }
 
 class Detective extends Citizen {
-    private static Map<Integer, Role> playerIdentities;
+    private static Map<Integer, Role> playerIdentity = new HashMap<>();
 
     public Detective(int personID, Role role) {
         super(personID, role);
-        playerIdentities = new HashMap<>();
     }
 
     public static void insertItem(int playerID, Role role) {
-        playerIdentities.put(playerID, role);
+        playerIdentity.put(playerID, role);
+    }
+
+    public static void hintToCitizenAboutMafia() {
+        System.out.printf("PlayerID %d is %s\n", playerIdentity.entrySet().iterator().next().getKey(),
+                                                 playerIdentity.entrySet().iterator().next().getValue());
     }
 }
 

@@ -3,31 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="1520c1ba-652a-49ef-ba5b-6a61de3bd01d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Citizen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Citizen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Detective.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Detective.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Doctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/God.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/GodFather.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/GodFather.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Mafia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Mafia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Natasha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Natasha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/SilencePlayerCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Sniper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mafia/MafiaGame/Sniper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MafiaGame/Command.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MafiaGame/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MafiaGame/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MafiaGame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MafiaGame/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MafiaGame/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MafiaGame/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MafiaGame/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MafiaGame/Role.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Mafia" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,7 +88,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575033992615</updated>
-      <workItem from="1575033995370" duration="14536000" />
+      <workItem from="1575033995370" duration="14725000" />
+      <workItem from="1575292057033" duration="2320000" />
+      <workItem from="1575302000950" duration="13881000" />
     </task>
     <servers />
   </component>
@@ -113,7 +102,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
